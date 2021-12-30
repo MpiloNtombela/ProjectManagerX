@@ -19,8 +19,8 @@
 2. [NodeJs (16.13)](https://nodejs.org/en/download/)
 3. [Yarn (1.3.2)](https://yarnpkg.com/lang/en/docs/install/)
 4. [pipenv](https://pipenv.pypa.io/en/latest/)
-5. ReactDevTools (0.10.1) [Firefox](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/) >> [Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en-US) (optional)
-6. Redux DevTools (3.1.1) [Firefox](https://addons.mozilla.org/en-US/firefox/addon/redux-devtools/) >> [Chrome](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en-US) (optional)
+5. React DevTools >> [Firefox](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/) || [Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en-US) (optional)
+6. Redux DevTools >> [Firefox](https://addons.mozilla.org/en-US/firefox/addon/reduxdevtools/) || [Chrome](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en-US) (optional)
 > ###### Using CMD/Terminal
 > 
 > Install python dependencies ``pipenv sync`` or ``pipenv install``
