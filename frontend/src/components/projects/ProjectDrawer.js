@@ -9,6 +9,7 @@ import Grid from "@material-ui/core/Grid";
 import Fab from "@material-ui/core/Fab";
 import Typography from "@material-ui/core/Typography";
 import ListItem from "@material-ui/core/ListItem";
+import {useHistory} from "react-router-dom";
 import BottomDrawer from "../layout/BottomDrawer";
 import Hidden from "@material-ui/core/Hidden";
 import TextBottomIconButton from "../layout/TextBottomIconButton";
@@ -20,7 +21,7 @@ import {
   BubbleChart,
   Menu,
   PersonAdd,
-  Tune,
+  CloseRounded
 } from "@material-ui/icons";
 import IconButton from "@material-ui/core/IconButton";
 import InvitationCard from "./projectActions/InvitationCard";
@@ -62,7 +63,7 @@ export default function ProjectDrawer() {
   const [anchorEl, setAnchorEl] = useState(false);
   const classes = useStyles();
   const { project } = useSelector((state) => state.projectsState);
-
+  const history = useHistory();
   const handleOpen = () => {
     setOpen(true);
   };
@@ -85,16 +86,6 @@ export default function ProjectDrawer() {
     {
       name: "Attachments",
       icon: <Attachment />,
-      func: handleClose,
-    },
-    {
-      name: "Logs",
-      icon: <History />,
-      func: handleClose,
-    },
-    {
-      name: "Test",
-      icon: <PersonAdd />,
       func: handleClose,
     },
   ];
@@ -121,8 +112,8 @@ export default function ProjectDrawer() {
               <IconButton size={"medium"} onClick={handleInviteClick}>
                 <PersonAdd />
               </IconButton>
-              <IconButton size={"medium"}>
-                <Tune />
+              <IconButton size={"medium"}  onClick={()=> history.goBack()}>
+                <CloseRounded />
               </IconButton>
             </>
           )}
