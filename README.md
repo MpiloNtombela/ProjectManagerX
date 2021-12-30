@@ -1,6 +1,6 @@
-# Blinkk
+# Project ManagerX
 
-##### Just another one of those projects sitting around in a drive
+##### Just a python django api project with react and redux ([**SPA**](https://developer.mozilla.org/en-US/docs/Glossary/SPA))
 
 #### Stack
 
@@ -19,9 +19,9 @@
 2. [NodeJs (16.13)](https://nodejs.org/en/download/)
 3. [Yarn (1.3.2)](https://yarnpkg.com/lang/en/docs/install/)
 4. [pipenv](https://pipenv.pypa.io/en/latest/)
-5. React DevTools >> [Firefox](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/) || [Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en-US) (optional)
-6. Redux DevTools >> [Firefox](https://addons.mozilla.org/en-US/firefox/addon/reduxdevtools/) || [Chrome](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en-US) (optional)
-> ###### Using CMD/Terminal
+5. React DevTools >> [Firefox](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/) || [Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en-US) (optional but recommended)
+6. Redux DevTools >> [Firefox](https://addons.mozilla.org/en-US/firefox/addon/reduxdevtools/) || [Chrome](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en-US) (optional but recommended)
+> ###### Using CMD/Terminal/Shell
 > 
 > Install python dependencies ``pipenv sync`` or ``pipenv install``
 > 
@@ -34,7 +34,10 @@
 > build JS ``yarn run build``
 > 
 > run django dev server ``py manage.py runserver``
-> > **note:** the project uses `python-decoupe` for environment[.env] variables (required in settings.py
+> > **note:** the project uses [`python-decoupe`](https://simpleisbetterthancomplex.com/2015/11/26/package-of-the-week-python-decouple.html) for environment[.env] variables (required in settings.py): <br/>
+> > like so 👇
+> > ![Screenshot (97)](https://user-images.githubusercontent.com/72506370/147768583-5259d566-dd32-4906-8da6-a476a92e3a3a.png)
+
 
 # Some screenshots
 ![Screenshot (96)](https://user-images.githubusercontent.com/72506370/147710432-ce5c3ed4-cf7f-4add-8097-5b92565febed.png)
