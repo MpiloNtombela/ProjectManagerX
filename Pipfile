@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-allauth = "*"
+django-hashid-field = "*"
+django-autoslug = "*"
+django-filter = "*"
+django-sortedm2m = "*"
+python-decouple = "*"
+django-dry-rest-permissions = "*"
+dj-rest-auth = "*"
+django-debug-toolbar = "*"
+
+[dev-packages]
+black = "*"
+coverage = "*"
+django-upgrade = "*"
+
+[requires]
+python_version = "3.10"
+
+[pipenv]
+allow_prereleases = true
